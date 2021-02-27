@@ -7,16 +7,16 @@ export function Profile() {
 
   return (
     <div className={styles.profileContainer}>
-      <img src="https://github.com/thefalked.png" alt="Giu"/>
+      <img src="https://github.com/thefalked.png" alt="Giu" />
       <div>
         <strong>
           Giuliano
         </strong>
         <p>
-          <img src="icons/level.svg" alt="level"/>
+          <img src="icons/level.svg" alt="level" />
           Level {level}
         </p>
       </div>
     </div>
-  )
+  );
 }
