@@ -46,14 +46,14 @@ export function ChallengesProvider({
 
   useEffect(() => {
     Notification.requestPermission();
-  }, [])
+  }, []);
 
   useEffect(() => {
     Cookies.set("level", String(level));
     Cookies.set("currentExperience", String(currentExperience));
     Cookies.set("challengesCompleted", String(challengesCompleted));
 
-  }, [level, currentExperience, challengesCompleted])
+  }, [level, currentExperience, challengesCompleted]);
 
   function levelUp() {
     setLevel(level + 1);
@@ -65,23 +65,23 @@ export function ChallengesProvider({
   }
 
   function startNewChallenge() {
-    const randomChallengeIndex = Math.floor(Math.random() * challenges.length)
+    const randomChallengeIndex = Math.floor(Math.random() * challenges.length);
     const challenge = challenges[randomChallengeIndex];
 
     setActiveChallenge(challenge);
 
-    new Audio("/notification.mp3")
+    new Audio("/notification.mp3");
 
     if (Notification.permission == "granted") {
       new Notification("Novo Desafio !", {
         body: `Valendo ${challenge.amount}xp!`,
         image: "/favicon.png",
-      })
+      });
     }
   }
 
   function resetChallenge() {
-    setActiveChallenge(null)
+    setActiveChallenge(null);
   }
 
   function completeChallenge() {
