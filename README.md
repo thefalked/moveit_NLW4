@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img alt="move.it" title="move.it" src=".github/logo.png" />
+</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-First, run the development server:
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+ <img src="https://img.shields.io/static/v1?label=NLW&message=04&color=8257E5&labelColor=000000" alt="NLW 04" />
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<p align="center">
+  <img alt="Happy" src=".github/moveit.png" width="100%">
+</p>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## ✨ Technologies
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This project was developed with the following technologies:
 
-## Learn More
+- [React](https://reactjs.org)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-To learn more about Next.js, take a look at the following resources:
+## 💻 Project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Move.it is an app that combines Pomodoro's technique with physical exercises for those who spend a lot of time in front of the computer.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🔖 Layout
 
-## Deploy on Vercel
+You can view the project layout through [this link](https://www.figma.com/file/nqb7z8iHFP6PZIkQumP1cY/Move.it-2.0?node-id=160%3A2761). You must have a [Figma](http://figma.com/) account to access it.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 How to run
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Clone the repository
+- Install dependencies with `yarn`
+- Start the server with `yarn dev`
+
+Now you can access [`localhost:3000`](http://localhost:3000) on your browser.
+
+## 📄 License
+
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
