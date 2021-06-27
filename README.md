@@ -32,7 +32,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-Move.it is an app that combines Pomodoro's technique with physical exercises for those who spend a lot of time in front of the computer.
+Move.it is an app that combines Pomodoro's technique with physical exercises for those who spend a lot of time in front of the computer. Check the app deployed on vercel in [here](https://move-it-orcin.vercel.app/).
 
 ## 🔖 Layout
 
